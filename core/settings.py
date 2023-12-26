@@ -276,4 +276,4 @@ CORS_ALLOW_HEADERS = [
 
 
 
-GDAL_LIBRARY_PATH = r'C:\OSGeo4W\bin\gdal308.dll'
+# GDAL_LIBRARY_PATH = r'C:\OSGeo4W\bin\gdal308.dll'
