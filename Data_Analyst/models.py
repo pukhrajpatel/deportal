@@ -11,9 +11,9 @@ class VillageMappingFile(models.Model):
     ac_no = models.IntegerField(verbose_name=("AC No"),null=False,blank=False,default=99999)
     object_id  = models.IntegerField(verbose_name=("Object Id"),null=True,blank=True)
     name = models.CharField(verbose_name=("Name"),null=True,blank=True,max_length=255)
-    locality = models.CharField(verbose_name=("Locality"),null=True,blank=True,max_length=3000)
+    locality = models.CharField(verbose_name=("Locality"),null=True,blank=True,max_length=10000)
     booth = models.CharField(verbose_name=("Booth"),null=True,blank=True,max_length=255)
-    probable_nearby_vil_voter = models.CharField(verbose_name=("Probable Nearby Village"),max_length=2000,null=True,blank=True)
+    probable_nearby_vil_voter = models.CharField(verbose_name=("Probable Nearby Village"),max_length=10000,null=True,blank=True)
     mandal = models.CharField(verbose_name=("Mandal"),max_length=255,null=True,blank=True)
     
     class Meta:
